@@ -100,7 +100,7 @@ header {
 .header-content #checker {
     border-radius: 25px 0 0 25px;
     padding: 10px 25px;
-    border: 1px solid black;
+    border: 2px solid #1C2B32;
     background: rgba(0, 0, 0, 0.0);
 }
 
@@ -111,8 +111,8 @@ input[type="text"]::placeholder {
 header button {
     border-radius: 0 25px 25px 0;
     padding: 10px 25px;
-    border: 1px solid black;
-    background: black;
+    border: 2px solid #1C2B32;
+    background: #1C2B32;
     color: white;
 }
 
@@ -121,7 +121,6 @@ header button {
 main {
     max-width: 1000px;
     margin: auto auto;
-    border: black dashed 2px;
 }
 
 .quote-box {
@@ -178,7 +177,7 @@ main {
 /*///////////// 3.3 Support /////////////*/
 
 .support-img {
-    border-radius: 30px;
+    border-radius: 22px;
     width: 80%;
     margin-left: 10%;
     margin-top: 25px;
@@ -197,8 +196,7 @@ a:link {
 main button {
     border-radius: 25px;
     padding: 10px 25px;
-    border: 1px solid black;
-    background: black;
+    background: #1C2B32;
     color: white;
     margin-left: 10%;
     margin-top: 25px;
@@ -210,13 +208,24 @@ details
 {
     width: 80%;
     margin-left: 10%;
-    margin-top: 10px;
     margin-bottom: 25px;
-    font-weight: bold;
 }
 
-summary
+details > p
 {
-    font-weight: normal;
+    background-color: #899CA0;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 0;
 }
+
 /*///////////// 3.5 Footer /////////////*/
+footer
+{
+    width: 100%;
+    padding: 15px;
+    background-color: #1C2B32;
+    text-align: center;
+    color: white;
+}
