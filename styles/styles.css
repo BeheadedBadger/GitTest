@@ -192,6 +192,10 @@ main p {
 a:link {
     color: #899CA0;
 }
+a:hover{
+    text-decoration: none;
+    color: #899CA0;
+}
 
 main button {
     border-radius: 25px;
@@ -209,6 +213,7 @@ details
     width: 80%;
     margin-left: 10%;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 
 details > p
