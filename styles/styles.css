@@ -194,8 +194,29 @@ a:link {
     color: #899CA0;
 }
 
+main button {
+    border-radius: 25px;
+    padding: 10px 25px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    margin-left: 10%;
+    margin-top: 25px;
+}
 
 /*///////////// 3.4 Faq /////////////*/
 
+details
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
 
+summary
+{
+    font-weight: normal;
+}
 /*///////////// 3.5 Footer /////////////*/
